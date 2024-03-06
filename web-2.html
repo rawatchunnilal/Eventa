@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Explore</title>
+  </head>
+  <style>
+    .div-cont {
+      display: flex;
+      width: 90%;
+      margin: 0 auto;
+      flex-wrap: wrap;
+    }
+    .grid-item {
+      display: block;
+      flex-basis: 50%;
+    }
+    @media only screen and (min-width: 1000px) {
+      .grid-item {
+        flex-basis: 33.33%;
+      }
+    }
+    @media only screen and (min-width: 800px) {
+      .grid-item {
+        flex-basis: 50%;
+      }
+    }
+    img {
+    }
+  </style>
+  <body>
+    <div class="div-cont">
+      <div class="grid-item"><img src="hotel.png" alt="" /></div>
+      <div class="grid-item"><img src="hall.png" alt="" /></div>
+      <div class="grid-item"><img src="pool.png" alt="" /></div>
+      <div class="grid-item"><img src="corporate.jpg" alt="" /></div>
+      <div class="grid-item"><img src="wedding2.png" alt="" /></div>
+      <div class="grid-item"><img src="bridal.png" alt="" /></div>
+    </div>
+  </body>
+</html>
